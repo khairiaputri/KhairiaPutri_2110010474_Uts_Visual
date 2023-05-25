@@ -1,0 +1,29 @@
+program Ganuts;
+
+uses
+  Forms,
+  UTSVIS2 in 'UTSVIS2.pas' {Form1},
+  Lat1 in 'Lat1.pas' {Form2},
+  Lat2 in 'Lat2.pas' {Form3},
+  Kond1 in 'Kond1.pas' {Form4},
+  Kond2 in 'Kond2.pas' {Form5},
+  Grafik1 in 'Grafik1.pas' {Form6},
+  Gravikrevi in 'Gravikrevi.pas' {Form7},
+  Lat in 'Lat.pas' {Form8},
+  Ujadwal in 'Ujadwal.pas' {Form9};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
+  Application.Run;
+end.
